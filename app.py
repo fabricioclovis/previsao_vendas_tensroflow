@@ -33,7 +33,7 @@ def preparar_dados(vendas: np.ndarray, janela: int):
     return np.array(X, dtype=np.float32), np.array(y, dtype=np.float32)
 
 
-def treinar_modelo_tensorflow(X: np.ndarray, y: np.ndarray, epocas: int) -> tf.keras.Model:
+def treinar_modelo_tensorflow(X: np.ndarray, y: np.ndarray, epocas: int):
     """Compila e treina uma rede neural de regressão."""
     modelo = Sequential([
         Dense(16, activation='relu', input_shape=(X.shape[1],)),
