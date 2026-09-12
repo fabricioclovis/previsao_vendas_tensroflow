@@ -1,10 +1,3 @@
-"""
-Aplicação Web de Previsão de Vendas com Streamlit e TensorFlow.
-Autor: Especialista ML & Python
-Descrição: Interface interativa para análise exploratória de vendas e
-            previsão de séries temporais via Rede Neural Keras/TensorFlow.
-"""
-
 import streamlit as st
 import pandas as pd
 import numpy as np
