@@ -8,9 +8,7 @@ Descrição: Interface interativa para análise exploratória de vendas e
 import streamlit as st
 import pandas as pd
 import numpy as np
-import tensorflow as tf
-from tensorflow.keras.models import Sequential
-from tensorflow.keras.layers import Dense
+from sklearn.linear_model import LinearRegression
 
 # Configuração da página Streamlit
 st.set_page_config(
