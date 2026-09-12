@@ -17,7 +17,7 @@ st.set_page_config(
 def carregar_dados_padrao() -> pd.DataFrame:
     """Carrega dataset inicial via dicionário Python."""
     dados_vendas = {
-        "Data": pd.date_range(start="2026-01-01", periods=12, freq="M"),
+        "Data": pd.date_range(start="2026-01-01", periods=12, freq="ME"),
         "Vendas_Unidades": [120, 135, 150, 160, 190, 210, 230, 250, 280, 300, 310, 340],
         "Investimento_Mkt": [10, 12, 15, 14, 18, 20, 22, 25, 27, 30, 31, 35]
     }
